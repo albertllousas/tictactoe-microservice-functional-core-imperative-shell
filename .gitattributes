@@ -4,7 +4,7 @@
 # Ignore Gradle build output directory
 build
 # Gradle
-.idea/
+.idea
 *.iml
 out/
 .DS_Store
