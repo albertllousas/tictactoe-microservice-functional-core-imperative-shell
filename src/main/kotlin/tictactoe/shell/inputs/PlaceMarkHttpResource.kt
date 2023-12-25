@@ -2,9 +2,12 @@ package tictactoe.shell.inputs
 
 import arrow.core.Either
 import arrow.core.flatMap
-import org.springframework.http.HttpStatus.*
+import org.springframework.http.HttpStatus.CONFLICT
+import org.springframework.http.HttpStatus.CREATED
 import org.springframework.http.ResponseEntity
-import org.springframework.http.ResponseEntity.*
+import org.springframework.http.ResponseEntity.status
+import org.springframework.http.ResponseEntity.notFound
+import org.springframework.http.ResponseEntity.unprocessableEntity
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
