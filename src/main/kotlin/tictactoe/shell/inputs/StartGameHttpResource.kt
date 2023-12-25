@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RestController
 import tictactoe.core.Outputs
 import tictactoe.core.TicTacToe
-import java.util.*
+import java.util.UUID
 
 @RestController
 class StartGameHttpResource(
