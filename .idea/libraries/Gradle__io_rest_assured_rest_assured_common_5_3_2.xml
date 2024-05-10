@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.rest-assured:rest-assured-common:5.3.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.rest-assured" artifactId="rest-assured-common" version="5.3.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured-common/5.3.2/fa647873e62402ecdff42da99059f80f70c5f4c3/rest-assured-common-5.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured-common/5.3.2/1fa5a775ea99e6f5ee551812c0c21e4257292b8b/rest-assured-common-5.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

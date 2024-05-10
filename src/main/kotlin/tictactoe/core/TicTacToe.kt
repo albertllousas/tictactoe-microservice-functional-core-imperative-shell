@@ -10,16 +10,6 @@ import tictactoe.core.Player.O
 import tictactoe.core.Player.X
 import java.util.UUID
 
-enum class Player {
-    X, O
-}
-
-sealed interface GameStatus {
-    data class Ongoing(val turn: Player) : GameStatus
-    data class Win(val winner: Player) : GameStatus
-    data object Draw : GameStatus
-}
-
 data class TicTacToe private constructor(
     val gameId: UUID,
     val board: List<List<Player?>>,
@@ -100,3 +90,13 @@ fun <T> List<List<T?>>.replace(row: Int, col: Int, value: T): List<List<T?>> =
         if (r == row) rowData.mapIndexed { c, data -> if (c == col) value else data }
         else rowData
     }
+
+enum class Player {
+    X, O
+}
+
+sealed interface GameStatus {
+    data class Ongoing(val turn: Player) : GameStatus
+    data class Win(val winner: Player) : GameStatus
+    data object Draw : GameStatus
+}
